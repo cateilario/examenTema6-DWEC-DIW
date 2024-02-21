@@ -115,23 +115,6 @@ body {
   padding: 1rem 2rem;
 }
 
-
-@media (width <= 600){
-  .main-nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .video-content h1{
-    font-size: 3rem;
-  } 
-
-  .video-content p{
-    font-size: 1.2rem;
-  }
-}
-
 /*Galley Section*/
 .gallery {
   padding: 0 4rem;
@@ -223,4 +206,25 @@ footer {
   align-items: center;
   padding: 1rem 2rem;
   font-size: 0.8rem;
+}
+
+/* Media Queries*/
+@media (min-width < 600) {
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-gallery{
+    grid-template-columns: repeat(autofill, (2, 200px));
+  }
+
+  .video-content h1 {
+    font-size: 3rem;
+  }
+
+  .video-content p {
+    font-size: 1.2rem;
+  }
 }
