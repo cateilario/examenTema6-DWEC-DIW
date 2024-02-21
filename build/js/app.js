@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
   startApp();
 });
 
-
-
 // function scrollNav(){
 //   const links = document.querySelectorAll(".main-nav a");
 
