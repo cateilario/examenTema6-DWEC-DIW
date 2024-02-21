@@ -4,13 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen Tema 6 - DIW/DWEC</title>
+    <link rel="stylesheet" href="/build/css/app.css">
+    <link rel="stylesheet" href="/build/css/normalize.css">
 </head>
 <body>
-    <header>
-        <div class="logo"></div>
-        <nav class="">
-            
+    <header class="header">
+        <div class="logo">
+            svg
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#gallery">Galería</a></li>
+            </ul>
         </nav>
     </header>
+
+    <section class="video">
+        <div class="overlay">
+            <div class="container video-content">
+                <h1>Blog de Viajes</h1>
+                <p>ROMA - <span id="year"></span></p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="/build/video/background-video.mp4" type="video/mp4">
+            <source src="/build/video/background-video.webm" type="video/webm">
+            <source src="/build/video/background-video.ogg" type="video/ogg">
+        </video>
+    </section>
+
+    <section class="gallery">
+        <ul class="img-gallery"></ul>
+    </section>
+
+    <footer></footer>
+
+    <script src="/build/js/app.js" type="module"></script>
 </body>
 </html>
