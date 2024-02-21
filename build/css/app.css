@@ -8,7 +8,7 @@
 :root {
   --white-color: white;
   --gold-color: #99722b;
-  --grey-color: #545353;
+  --grey-color: #3d3c3c;
 }
 
 * {
@@ -29,11 +29,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0.9rem 3rem;
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 100; */
   background-color: var(--white-color);
   box-shadow: 0 2px 8px grey;
   min-height: 10vh;
@@ -132,31 +132,6 @@ body {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Galley Section*/
 .gallery {
   padding: 0 4rem;
@@ -171,6 +146,30 @@ body {
   font-size: 2.5rem;
   color: var(--grey-color);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .img-gallery {
   display: grid;
